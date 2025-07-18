@@ -1,0 +1,153 @@
+/* Basic settings */
+@media print and (color) {
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+html, body, div {
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+section {
+    width: 100% !important;
+}
+
+#nav_bar {
+    background: #000;
+    width: 100% !important;
+    display: none !important;
+    position: static !important;
+    padding: 15px !important;
+}
+
+#navigation {
+    display: none;
+}
+
+.logo img {
+    width: 100px !important;
+}
+
+.cbp-spmenu {
+    display: none !important;
+}
+
+/* Content */
+.content__summary {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    line-height: 1.625;
+}
+
+#work {
+    padding-top: 0px !important;
+}
+
+/* Projects */
+.project__wrapper {
+    float: none !important;
+    display: block !important;
+    width: 100% !important;
+    position: relative !important;
+    page-break-before: auto  !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: always  !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid  !important; /* or 'auto' */
+}
+
+.project {
+    font-size: 10pt;
+    line-height: 1.625;
+}
+
+.project__images.owl-carousel .owl-item {
+    opacity: 1 !important;
+    visibility: visible;
+}
+
+.owl-dots {
+    display: none !important;
+}
+
+.project__images {
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.owl-stage {
+    width: auto !important;
+    padding: 0px !important;
+}
+
+.owl-item {
+    width: auto !important;
+    display: inline !important;
+    max-width: 24%;
+    width: 24%;
+    margin-bottom: 15px !important;
+    padding-right: 15px !important;
+}
+
+.owl-item:first-of-type {
+    display: none !important;
+}
+
+.project__image img {
+    max-width: 100%;
+}
+
+.project__image--print {
+    display: block;
+    page-break-inside: avoid  !important; /* or 'auto' */
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.project__image--print img {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    page-break-inside: avoid  !important; /* or 'auto' */
+    width: auto;
+}
+
+.project__title {
+    margin-top: 25px;
+}
+
+.project__title a {
+    color: #18bcf9 !important;
+    text-decoration: none !important;
+}
+
+.project__date {
+    margin-bottom: 15px;
+}
+
+.project__tags {
+    margin-top: 15px;
+}
+
+.project__tags-tag {
+    padding: 5px 8px;
+    background-color: #efefef;
+    color: #333;
+    font-size: 8pt;
+    margin-right: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+/* Classes to hide */
+.cc-cookies {
+    display: none;
+}
+
+.scrollup {
+    display: none;
+}
